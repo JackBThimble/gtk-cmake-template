@@ -26,7 +26,7 @@ add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 # Add more include directories if needed
 target_include_directories(${PROJECT_NAME} PUBLIC ${GTK4_LIBRARIES} ${CMAKE_SOURCE_DIR/include})
-target_link_libraries(${PROJECT_NAME} PRIVATE PkgConfig::GTK4)
+target_link_libraries(${PROJECT_NAME} PRIVATE PkgConfig::GTK4 ${CMAKE_SOURCE_DIR/include})
 
 # If you have precompiled headers you can add them like this
 # target_precompiled_headers(cproject PRIVATE "${CMAKE_SOURCE_DIR}/src/pch.h")

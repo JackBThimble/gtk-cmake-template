@@ -1,4 +1,5 @@
-CMakeFiles/cproject.dir/src/main.c.o: /home/jakec/dev/gtk-ttt/src/main.c \
+CMakeFiles/cproject.dir/src/activate_gtk_window.c.o: \
+ /home/jakec/dev/gtk-ttt/src/activate_gtk_window.c \
  /usr/include/stdc-predef.h \
  /home/jakec/dev/gtk-ttt/src/../include/activate_gtk_window.h \
  /usr/include/gtk-4.0/gtk/gtk.h /usr/include/gtk-4.0/gtk/css/gtkcss.h \

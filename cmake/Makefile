@@ -129,6 +129,30 @@ cproject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/build
 .PHONY : cproject/fast
 
+src/activate_gtk_window.o: src/activate_gtk_window.c.o
+.PHONY : src/activate_gtk_window.o
+
+# target to build an object file
+src/activate_gtk_window.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.o
+.PHONY : src/activate_gtk_window.c.o
+
+src/activate_gtk_window.i: src/activate_gtk_window.c.i
+.PHONY : src/activate_gtk_window.i
+
+# target to preprocess a source file
+src/activate_gtk_window.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.i
+.PHONY : src/activate_gtk_window.c.i
+
+src/activate_gtk_window.s: src/activate_gtk_window.c.s
+.PHONY : src/activate_gtk_window.s
+
+# target to generate assembly for a file
+src/activate_gtk_window.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cproject.dir/build.make CMakeFiles/cproject.dir/src/activate_gtk_window.c.s
+.PHONY : src/activate_gtk_window.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cproject"
+	@echo "... src/activate_gtk_window.o"
+	@echo "... src/activate_gtk_window.i"
+	@echo "... src/activate_gtk_window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

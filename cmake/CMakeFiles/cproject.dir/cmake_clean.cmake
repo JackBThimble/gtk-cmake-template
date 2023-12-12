@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cproject.dir/src/activate_gtk_window.c.o"
+  "CMakeFiles/cproject.dir/src/activate_gtk_window.c.o.d"
   "CMakeFiles/cproject.dir/src/main.c.o"
   "CMakeFiles/cproject.dir/src/main.c.o.d"
   "cproject"
